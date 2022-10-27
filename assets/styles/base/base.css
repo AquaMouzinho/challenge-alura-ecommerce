@@ -1,2 +1,16 @@
 @import url('_reset.css');
 @import url('_variaveis.css');
+
+@media screen and (min-width: 0) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {}
+}
+
+@media screen and (min-width: 1024px) {
+  .container {}
+}
