@@ -1,0 +1,21 @@
+.hero {
+  align-items: flex-start;
+  background: linear-gradient(rgba(000, 000, 000, .2), rgba(000, 000, 000, 0.2)),
+    linear-gradient(transparent 50%, rgba(000, 000, 000, 0.8)),
+    url('../../img/Hero.png') no-repeat center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 0) {
+  .hero {
+    min-height: 192px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    min-height: 352px;
+  }
+}

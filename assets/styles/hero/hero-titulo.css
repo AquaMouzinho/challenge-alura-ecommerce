@@ -1,0 +1,19 @@
+.hero__titulo {
+  color: var(--branco);
+  font-family: var(--fonte);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+  .hero__titulo {
+    font-size: var(--tam-22);
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__titulo {
+    font-size: var(--tam-52);
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,10 @@
+.hero__botao {
+  background-color: var(--azul);
+  color: var(--branco);
+  transition: all 0.2s ease-in-out;
+}
+
+.hero__botao:hover {
+  filter: brightness(92.5%);
+  transform: scale(105%);
+}

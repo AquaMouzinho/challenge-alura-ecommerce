@@ -1,0 +1,19 @@
+.hero__subtitulo {
+  color: var(--branco);
+  font-family: var(--fonte);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 0) {
+  .hero__subtitulo {
+    font-size: var(--tam-14);
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__subtitulo {
+    font-size: var(--tam-22);
+    margin-bottom: 1rem;
+  }
+}
