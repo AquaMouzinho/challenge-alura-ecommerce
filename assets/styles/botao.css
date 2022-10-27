@@ -1,0 +1,7 @@
+.botao {
+  font-family: var(--fonte);
+  font-size: var(--tam14);
+  font-weight: 600;
+  text-align: center;
+  padding: 0.75rem 1rem;
+}

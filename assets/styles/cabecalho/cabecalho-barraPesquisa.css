@@ -1,0 +1,11 @@
+.cabecalho__barraPesquisa {}
+
+@media screen and (min-width: 0) {
+  .cabecalho__barraPesquisa {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}

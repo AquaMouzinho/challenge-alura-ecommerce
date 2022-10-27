@@ -1,0 +1,24 @@
+.cabecalho__input {}
+
+.cabecalho__input--icone {
+  background-image: url('../../img/lupa-icone.svg');
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (min-width: 0) {
+  .cabecalho__input {
+    display: none;
+  }
+
+  .cabecalho__input--icone {
+    opacity: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho__input--icone {
+    background-image: url('../../img/lupa-icone.svg');
+    opacity: 50%;
+  }
+}
