@@ -1,3 +1,11 @@
+.cabecalho__input {
+  background: transparent;
+  color: var(--preto-50);
+  font-family: var(--fonte);
+  font-size: var(--tam-14);
+  outline: none;
+}
+
 .cabecalho__input--icone {
   background-image: url('../../img/lupa-icone.svg');
   height: 24px;
@@ -17,10 +25,6 @@
 @media screen and (min-width: 768px) {
   .cabecalho__input {
     display: inline-block;
-    background: transparent;
-    color: var(--preto-50);
-    font-family: var(--fonte);
-    font-size: var(--tam-14);
     margin-right: 0.5rem;
     width: -webkit-fill-available;
   }
