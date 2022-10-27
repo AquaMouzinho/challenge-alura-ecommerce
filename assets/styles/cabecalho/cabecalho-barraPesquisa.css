@@ -1,11 +1,18 @@
-.cabecalho__barraPesquisa {}
-
 @media screen and (min-width: 0) {
   .cabecalho__barraPesquisa {
     order: 1;
   }
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .cabecalho__barraPesquisa {
+    align-items: center;
+    display: flex;
+    background-color: var(--preto-05);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    order: 0;
+  }
+}
 
 @media screen and (min-width: 1024px) {}
