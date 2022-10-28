@@ -1,0 +1,5 @@
+.contato {
+  background: var(--azul-10);
+  display: flex;
+  flex-direction: column;
+}
