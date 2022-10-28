@@ -1,0 +1,36 @@
+.produtos__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.produtos__header--link {
+  align-items: center;
+  color: var(--azul);
+  display: flex;
+  font-family: var(--fonte);
+  font-size: var(--tam-14);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.produtos__header--icon {
+  background: url('../../img/seta.png') no-repeat center / contain;
+}
+
+@media screen and (min-width: 0) {
+  .produtos__header--icon {
+    height: 16px;
+    margin-left: 0.25rem;
+    width: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .produtos__header--icon {
+    height: 24px;
+    margin-left: 0.5rem;
+    width: 24px;
+  }
+}

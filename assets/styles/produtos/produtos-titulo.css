@@ -1,0 +1,6 @@
+.produtos__titulo {
+  color: var(--preto);
+  font-family: var(--fonte);
+  font-size: var(--tam-22);
+  font-weight: bold;
+}

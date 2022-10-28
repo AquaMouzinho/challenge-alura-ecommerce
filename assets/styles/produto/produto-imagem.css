@@ -1,0 +1,6 @@
+.produto__imagem {
+  background: var(--preto-05);
+  height: 174px;
+  margin-bottom: 0.5rem;
+  width: -webkit-fill-available;
+}

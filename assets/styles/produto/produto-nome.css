@@ -1,0 +1,7 @@
+.produto__nome {
+  color: var(--preto);
+  font-family: var(--fonte);
+  font-size: var(--tam-14);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}

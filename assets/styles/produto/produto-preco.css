@@ -1,0 +1,7 @@
+.produto__preco {
+  color: var(--preto);
+  font-family: var(--fonte);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
