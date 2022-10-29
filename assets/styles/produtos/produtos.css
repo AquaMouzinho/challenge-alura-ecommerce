@@ -1,1 +1,14 @@
-.produtos {}
+@media screen and (min-width: 1024px) {
+  .produtos {
+    max-width: 1136px;
+    margin: 0 auto;
+  }
+
+  .produtos:first-child {
+    padding: 4rem;
+  }
+
+  .produtos:last-child {
+    padding-bottom: 4rem;
+  }
+}
