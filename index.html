@@ -230,12 +230,83 @@
 
     <!-- SEÇÃO NOVO PRODUTO -->
     <section class="novoProduto container">
-
+      <h2 class="novoProduto__titulo">Adicionar novo produto</h2>
+      <form class="formulario">
+        <div class="formulario__imagem--container">
+          <div class="formulario__imagem">
+            <img src="" alt="Icone de fotografia">
+            <p>Arraste para adicionar uma imagem para o produto</p>
+          </div>
+          <p>Ou</p>
+          <label class="botao" for="fileElem">Procure no seu computador</label>
+          <input type="file" name="fileElem" accept="image/*" onchange="handleFiles(this.files)" placeholder="Select some files">
+        </div>
+        <div class="formulario__input--container">
+          <label for="nome" class="formulario__input--label">Nome</label>
+          <input type="text" name="nome" class="formulario__input" placeholder="Nome do produto" required>
+          <p class="formulario__input--msgErro">Erro!</p>
+        </div>
+        <div class="formulario__input--container">
+          <label for="preco" class="formulario__input--label">Preço do produto</label>
+          <input type="number" name="preco" class="formulario__input" placeholder="Preço do produto" required>
+          <p class="formulario__input--msgErro">Erro!</p>
+        </div>
+        <div class="formulario__textArea--container">
+          <label for="descricao" class="formulario__textArea--label">Descrição</label>
+          <textarea name="descricao" cols="30" rows="10" placeholder="Descrição do item" class="formulario__textArea" required></textarea>
+          <p class="formulario__textArea--msgErro">Erro!</p>
+        </div>
+        <button class="botao formulario__botao" type="submit">Adicionar produto</button>
+      </form>
     </section>
 
     <!-- SEÇÃO PRODUTO -->
     <section class="telaProduto container">
-
+      <div class="telaProduto__produto">
+        <img src="#" alt="Imagem do produto" class="telaProduto__imagem">
+        <h3 class="telaProduto__nomeProduto">Produto XYZ</h3>
+        <h4 class="telaProduto__precoProduto">R$ 60,00</h4>
+        <p class="telaProduto__descProduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, qui. Adipisci rerum amet, ullam natus, sunt eum, animi explicabo commodi id culpa molestiae debitis minus repellendus voluptas placeat suscipit. At.</p>
+      </div>
+      <h2 class="telaProduto__titulo">Produtos similares</h2>
+      <div class="produtos__grid">
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+        <div class="produto">
+          <img class="produto__imagem" src="#" alt="#">
+          <h3 class="produto__nome">display</h3>
+           <h4 class="produto__preco">R$ XX,XX</h4>
+           <a href="#" class="produto__link">Ver produto</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="rodape">
