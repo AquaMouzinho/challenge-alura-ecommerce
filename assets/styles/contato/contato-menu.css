@@ -1,7 +1,30 @@
 .contato__menu {
-  align-items: center;
   display: flex;
-  flex-direction: column;
   margin-bottom: 2rem;
-  text-align: center;
+}
+
+@media screen and (min-width: 0) {
+  .contato__menu {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contato__menu {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 1rem;
+    min-width: 254px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contato__menu {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }

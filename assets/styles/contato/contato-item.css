@@ -1,11 +1,19 @@
-.contato__item {
-  margin: 0.5rem 0;
-}
-
 .contato__item:first-child {
   margin-top: 0;
 }
 
 .contato__item:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 0) {
+  .contato__item {
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contato__item {
+    margin: var(--tam-12) 0;
+  }
 }
