@@ -1,0 +1,11 @@
+@media screen and (min-width: 0) {
+  .cabecalho__logo {
+    content: url('../../img/logo-mobile.png');
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho__logo {
+    content: url('../../img/logo.png');
+  }
+}
