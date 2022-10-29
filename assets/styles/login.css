@@ -1,0 +1,28 @@
+.login {
+  background-color: var(--preto-05);
+}
+
+.login .formulario {
+  margin: 0 auto;
+  max-width: 423px;
+}
+
+.login .formulario__legenda {
+  align-self: center;
+}
+
+.login .formulario__botao {
+  width: -webkit-fill-available;
+}
+
+@media screen and (min-width: 0) {
+  .login {
+    padding: 3rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login {
+    padding: 6rem 1rem;
+  }
+}

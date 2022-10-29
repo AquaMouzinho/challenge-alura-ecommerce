@@ -1,4 +1,5 @@
 .botao {
+  cursor: pointer;
   font-family: var(--fonte);
   font-size: var(--tam14);
   font-weight: 600;

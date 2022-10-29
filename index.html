@@ -48,6 +48,8 @@
   <link rel="stylesheet" href="./assets/styles/desenvolvedor/desenvolvedor.css">
   <link rel="stylesheet" href="./assets/styles/desenvolvedor/desenvolvedor-texto.css">
 
+  <link rel="stylesheet" href="./assets/styles/login.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -206,6 +208,24 @@
       </div>
     </section>
 
+    <section class="login container">
+      <form class="formulario">
+        <legend class="formulario__legenda">Iniciar Sessão</legend>
+        <fieldset class="formulario__campo">
+          <div class="formulario__input--container">
+            <label for="email" class="formulario__input--label">E-mail</label>
+            <input type="email" name="email" class="formulario__input" placeholder="Escreva seu email" required>
+            <p class="formulario__input--msgErro">Erro!</p>
+          </div>
+          <div class="formulario__input--container">
+            <label for="senha" class="formulario__input--label">Senha</label>
+            <input type="password" name="senha" class="formulario__input" placeholder="Escreva sua senha" required>
+            <p class="formulario__input--msgErro">Erro!</p>
+          </div>
+        </fieldset>
+        <button class="botao formulario__botao" type="submit">Entrar</button>
+      </form>
+    </section>
   </main>
   <footer class="rodape">
     <section class="contato container">
