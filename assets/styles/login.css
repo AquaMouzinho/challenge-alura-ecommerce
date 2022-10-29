@@ -1,4 +1,5 @@
 .login {
+  display: none;
   background-color: var(--preto-05);
 }
 
