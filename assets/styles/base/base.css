@@ -14,5 +14,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .container {}
+  .container {
+    padding: 4rem;
+  }
 }

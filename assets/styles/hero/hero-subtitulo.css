@@ -17,3 +17,9 @@
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero__subtitulo {
+    display: none;
+  }
+}
