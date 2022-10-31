@@ -1,0 +1,25 @@
+.produto__opcoes {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 100%;
+}
+
+.produto__opcoes--edit,
+.produto__opcoes--remove {
+  width: 24px;
+  height: 24px;
+}
+
+.produto__opcoes--edit {
+  background: url('../../img/edit-icon.png') no-repeat center / contain;
+}
+
+.produto__opcoes--remove {
+  background: url('../../img/delete-icon.png') no-repeat center / contain;
+  margin-right: 1rem;
+  order: -1;
+}

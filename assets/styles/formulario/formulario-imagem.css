@@ -1,0 +1,36 @@
+.formulario__imagem--container {
+  align-items: center;
+  display: flex;
+  font-family: var(--fonte);
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.formulario__imagem--container input[type='file'] {
+  display: none;
+}
+
+.formulario__imagem--botao {
+  border: 1px solid var(--azul);
+  color: var(--azul);
+  width: 100%;
+}
+
+.formulario__imagem {
+  align-items: center;
+  background: var(--branco);
+  border: 2px dotted var(--preto-50);
+  color: var(--preto-50);
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.formulario__imagem--container p {
+  margin: 0 0.5rem;
+}

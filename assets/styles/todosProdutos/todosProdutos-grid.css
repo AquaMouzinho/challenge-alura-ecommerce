@@ -1,0 +1,26 @@
+.todosProdutos__grid {
+  display: grid;
+}
+
+@media screen and (min-width: 0) {
+  .todosProdutos__grid {
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .todosProdutos__grid {
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .todosProdutos__grid {
+    grid-template-columns: repeat(6, auto);
+    gap: 4rem 1rem;
+    max-width: 1136px;
+    margin: 0 auto;
+  }
+}

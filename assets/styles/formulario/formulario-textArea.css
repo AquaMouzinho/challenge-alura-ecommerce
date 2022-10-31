@@ -8,6 +8,7 @@
   justify-content: flex-end;
   margin-bottom: 0.5rem;
   position: relative;
+  width: 100%;
 }
 
 .formulario__textArea {

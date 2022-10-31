@@ -1,0 +1,13 @@
+.novoProduto {
+  background-color: var(--preto-05);
+  font-family: var(--fonte);
+}
+
+.novoProduto .formulario {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.novoProduto .formulario__botao {
+  width: 100%;
+}
