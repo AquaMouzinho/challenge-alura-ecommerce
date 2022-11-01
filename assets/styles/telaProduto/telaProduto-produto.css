@@ -1,0 +1,73 @@
+.telaProduto__produto {
+  display: flex;
+}
+
+.telaProduto__produto--imagem {
+  background: var(--preto-50);
+}
+
+@media screen and (min-width: 0) {
+  .telaProduto__produto {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .telaProduto__produto--imagem {
+    margin: 0 -1rem;
+    width: -webkit-fill-available;
+    min-height: 192px;
+  }
+
+  .telaProduto__produto--dados {
+    padding: 1rem 0;
+  }
+
+  .telaProduto__produto--nome {
+    font-size: var(--tam-22);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .telaProduto__produto--preco {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .telaProduto__produto--desc {
+    font-size: var(--tam-14);
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .telaProduto__produto {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .telaProduto__produto--imagem {
+    margin: 0 1rem 0 0;
+    height: -webkit-fill-available;
+    min-width: 254px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .telaProduto__produto {
+    max-width: 1136px;
+    margin: 0 auto 2rem;
+  }
+
+  .telaProduto__produto--imagem {
+    min-height: 403px;
+    max-width: 560px;
+  }
+
+  .telaProduto__produto--nome {
+    max-width: 560px;
+    font-size: 3.5rem;
+  }
+}

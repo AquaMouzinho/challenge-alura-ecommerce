@@ -1,5 +1,6 @@
 .novoProduto {
   background-color: var(--preto-05);
+  display: none;
   font-family: var(--fonte);
 }
 

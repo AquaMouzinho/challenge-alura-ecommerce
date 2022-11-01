@@ -13,13 +13,20 @@
   <link rel="stylesheet" href="../assets/styles/cabecalho/cabecalho-logo.css">
   <link rel="stylesheet" href="../assets/styles/cabecalho/cabecalho-barraPesquisa.css">
   <link rel="stylesheet" href="../assets/styles/cabecalho/cabecalho-input.css">
-  <link rel="stylesheet" href="../assets/styles/cabecalho/cabecalho-btnLogin.css">
+  <link rel="stylesheet" href="../assets/styles/cabecalho/cabecalho-botao.css">
 
   <link rel="stylesheet" href="../assets/styles/todosProdutos/todosProdutos.css">
   <link rel="stylesheet" href="../assets/styles/todosProdutos/todosProdutos-header.css">
   <link rel="stylesheet" href="../assets/styles/todosProdutos/todosProdutos-titulo.css">
   <link rel="stylesheet" href="../assets/styles/todosProdutos/todosProdutos-botao.css">
   <link rel="stylesheet" href="../assets/styles/todosProdutos/todosProdutos-grid.css">
+
+  <link rel="stylesheet" href="../assets/styles/telaProduto/telaProduto.css">
+  <link rel="stylesheet" href="../assets/styles/telaProduto/telaProduto-produto.css">
+  <link rel="stylesheet" href="../assets/styles/telaProduto/telaProduto-similaresTitulo.css">
+
+  <link rel="stylesheet" href="../assets/styles/produtos/produtos.css">
+  <link rel="stylesheet" href="../assets/styles/produtos/produtos-grid.css">
 
   <link rel="stylesheet" href="../assets/styles/produto/produto.css">
   <link rel="stylesheet" href="../assets/styles/produto/produto-imagem.css">
@@ -48,10 +55,16 @@
 
   <link rel="stylesheet" href="../assets/styles/desenvolvedor/desenvolvedor.css">
   <link rel="stylesheet" href="../assets/styles/desenvolvedor/desenvolvedor-texto.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="cabecalho container">
-    <img src="../assets/img/logo-mobile.png" alt="Logótipo da Alura Geek" class="cabecalho__logo">
+    <a href="../index.html">
+      <img src="../assets/img/logo-mobile.png" alt="Logótipo da Alura Geek" class="cabecalho__logo">
+    </a>
     <div class="cabecalho__barraPesquisa">
       <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?" data-barra-pesquisa>
       <div class="cabecalho__input--icone"></div>
@@ -188,48 +201,52 @@
     <!-- SEÇÃO PRODUTO -->
     <section class="telaProduto container">
       <div class="telaProduto__produto">
-        <img src="#" alt="Imagem do produto" class="telaProduto__imagem">
-        <h3 class="telaProduto__nomeProduto">Produto XYZ</h3>
-        <h4 class="telaProduto__precoProduto">R$ 60,00</h4>
-        <p class="telaProduto__descProduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, qui. Adipisci rerum amet, ullam natus, sunt eum, animi explicabo commodi id culpa molestiae debitis minus repellendus voluptas placeat suscipit. At.</p>
+        <img src="#" alt="Imagem do produto" class="telaProduto__produto--imagem">
+        <div class="telaProduto__produto--dados">
+          <h3 class="telaProduto__produto--nome">Produto XYZ</h3>
+          <h4 class="telaProduto__produto--preco">R$ 60,00</h4>
+          <p class="telaProduto__produto--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, qui. Adipisci rerum amet, ullam natus, sunt eum, animi explicabo commodi id culpa molestiae debitis minus repellendus voluptas placeat suscipit. At.</p>
+        </div>
       </div>
-      <h2 class="telaProduto__titulo">Produtos similares</h2>
-      <div class="produtos__grid">
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
-        </div>
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
-        </div>
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
-        </div>
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
-        </div>
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
-        </div>
-        <div class="produto">
-          <img class="produto__imagem" src="#" alt="#">
-          <h3 class="produto__nome">display</h3>
-           <h4 class="produto__preco">R$ XX,XX</h4>
-           <a href="#" class="produto__link">Ver produto</a>
+      <h2 class="telaProduto__similaresTitulo">Produtos similares</h2>
+      <div class="produtos">
+        <div class="produtos__grid">
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
+          <div class="produto">
+            <img class="produto__imagem" src="#" alt="#">
+            <h3 class="produto__nome">display</h3>
+             <h4 class="produto__preco">R$ XX,XX</h4>
+             <a href="#" class="produto__link">Ver produto</a>
+          </div>
         </div>
       </div>
     </section>

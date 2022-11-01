@@ -1,0 +1,6 @@
+.telaProduto {
+  display: none;
+  background: var(--preto-05);
+  color: var(--preto);
+  font-family: var(--fonte);
+}

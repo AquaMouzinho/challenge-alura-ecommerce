@@ -1,0 +1,34 @@
+.cabecalho__btnLogin,
+.cabecalho__btnMenuAdminis {
+  background: transparent;
+  border: 1px solid var(--azul);
+  color: var(--azul);
+  transition: all 0.2s ease-in-out;
+}
+
+.cabecalho__btnMenuAdminis {
+  visibility: hidden;
+  font-weight: 400;
+}
+
+.cabecalho__btnLogin:hover,
+.cabecalho__btnMenuAdminis:hover {
+  background: var(--azul);
+  color: var(--branco);
+}
+
+@media screen and (min-width: 0) {
+
+  .cabecalho__btnLogin,
+  .cabecalho__btnMenuAdminis {
+    width: 133px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .cabecalho__btnLogin,
+  .cabecalho__btnMenuAdminis {
+    width: 166px;
+  }
+}
